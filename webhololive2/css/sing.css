@@ -1,0 +1,134 @@
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .icon-shop {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 30px;
+      display: flex;
+  }
+  .icon-shop  img {
+      width: 230px;
+      height: 29.125px;
+  }
+  .input-container {
+      text-align: center;
+      margin-left: 550px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    
+    input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      width: 300px;
+    }
+  ul.icon-shop-ul {
+    list-style: none  ;
+    display: flex;
+    padding-left: 0px;
+  }
+  ul.icon-shop-ul li{
+    padding-left: 50px;
+    margin-bottom: 10px;
+  }
+  i.fa-solid.fa-magnifying-glass {
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 1050px;
+ }
+
+ .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: sans-serif;
+}
+h2 {
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:#24c1ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.login-container a {
+    text-decoration: none;
+}
+.footer {
+    background-color: #313131;;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  .footer ul {
+    font-size: 16px;
+    color: #cccccc;
+    font-weight: bold;
+    list-style: none;
+  }
+  .footer ul li {
+    margin-top: 10px;
+  }
+  .footer ul li a {
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  .footer ul img {
+    width: 20px;
+    height: 20px;
+    margin-top: 40px;
+    padding-right: 10px;
+  }
+  .footer-bank {
+    background-color: #313131;;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }
+  .footer-bank ul {
+    list-style: none;
+    display: flex;
+  }
+  .footer-bank ul li img {
+    width: 36px;
+    height: 22px;
+    padding-left: 10px;
+  }
+  
+  

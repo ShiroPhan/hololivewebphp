@@ -1,0 +1,347 @@
+body {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.icon-shop {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: flex;
+}
+.icon-shop  img {
+    width: 230px;
+    height: 29.125px;
+}
+.input-container {
+    text-align: center;
+    margin-left: 550px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 300px;
+  }
+ul.icon-shop-ul {
+  list-style: none  ;
+  display: flex;
+  padding-left: 0px;
+}
+ul.icon-shop-ul li{
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+i.fa-solid.fa-magnifying-glass {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 1050px;
+}
+.detail-tong {
+  display: flex;
+}
+
+.product-container {
+    flex-direction: column; /* Chuyển định dạng sang dọc */
+    align-items: center; /* Canh giữa */
+    
+}
+
+.detail-imglamy {
+    width: 100%;
+}
+
+.product-images img {
+    width: 565px;
+    height: 565px;
+    margin-left: 100px;
+    border: 2px solid;
+    color: #24c1ff;
+}
+.product-thumbnails {
+    margin-left: 143px;
+    width: 500px;
+    text-align: center;
+}
+.product-thumbnails img {
+    width: 94.550px;
+    height: 94.550px; 
+    margin: 3.8px;
+    border: 2px solid;
+    color: #24c1ff;
+
+}
+
+.toggle-container.collapsed {
+  text-align: center;
+  border-top: 2px #24c1ff solid;
+  margin-top: px;
+  width: 570px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+
+
+.toggle-container {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer; /* Đổi con trỏ chuột thành hình cửa sổ để chỉ ra rằng nó có thể được nhấn */
+}
+
+.toggle-container.expanded {
+  text-align: center;
+  border-top: 2px #24c1ff solid;
+  margin-top: 50px;
+  width: 570px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+/* Style cho nội dung ẩn/hiện */
+.hidden-content {
+  display: none;
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Đổi biểu tượng khi mở rộng */
+.toggle-container.expanded::before {
+  content: "-";
+  float: right;
+}
+
+/* Đổi biểu tượng khi thu gọn */
+.toggle-container.collapsed::before {
+  content: "+";
+  float: right;
+  border: 2px solid #24c1ff;
+  border-radius: 100%;
+}
+
+.lamy-detail1{
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+
+.reprot p {
+  color: red;
+  border: red solid 2px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color: #333333;
+}
+
+.horizontal-gradient-line {
+  width: 100%; /* Chiều rộng của đường gạch ngang sẽ bằng 100% chiều rộng của phần tử chứa nó */
+  height: 2px; /* Độ dày của đường gạch */
+  background: linear-gradient(to right, #00bfff 0%, #00bfff 50%, #add8e6 50%, #add8e6 100%);
+  /* Linear gradient từ xanh nhạt (đậm) đến xanh nhạt vừa */
+}
+
+.ul-lamy ul {
+  list-style: none;
+  width: 100%;
+  padding-left: 0px;
+  display: flex;
+
+}
+.ul-lamy li {
+  padding-left: 20px;
+  
+}
+
+.ul-lamy li a {
+  text-decoration: none;
+  color: black;
+  border: #010c0f 0.8px solid;
+  border-radius: 2px;
+  font-size: 20px;
+}
+
+.ul-lamy li a:hover {
+  border: #00bfff 2px solid;
+}
+
+.ul-lamy p {
+  color: #00bfff;
+}
+
+
+
+.quantity-container {
+  display: flex;
+  padding-left: 20px;
+  width: 278.3px; /* Tăng kích thước lên 10% */
+  height: 51.04px; /* Tăng kích thước lên 10% */
+  margin-left: 180px;
+}
+
+/* Style cho nút giảm số lượng và nút tăng số lượng */
+.quantity-button {
+  width: 33px; /* Tăng kích thước lên 10% */
+  height: 33px; /* Tăng kích thước lên 10% */
+  border: 1px solid #333; /* Border đen nhạt */
+  cursor: pointer;
+  font-size: 16px;
+  color: #333; /* Màu đen nhạt */
+  background: none; /* Không có background color */
+}
+
+/* Style cho ô hiển thị số lượng */
+.quantity-display {
+  width: 66px; /* Tăng kích thước lên 10% */
+  height: 32px; /* Tăng kích thước lên 10% */
+  text-align: center;
+  font-size: 16px;
+  color: #333; /* Màu đen nhạt */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333; /* Border đen nhạt */
+  background: none; /* Không có background color */
+  
+}
+
+/* Style cho nút tăng số lượng */
+.quantity-button.increment {
+  border: 1px solid #333; /* Border đen nhạt */
+}
+
+.preorder-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f790a0; /* Màu hồng nhạt */
+  color: #fff; /* Màu chữ trắng */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 200px;
+}
+
+.new-arrival {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.new-arrival::before,
+.new-arrival::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; 
+  background: linear-gradient(to right, #00a5e0, #ffffff, #00a5e0); 
+  z-index: -1; 
+}
+
+.new-arrival::before {
+  left: 0;
+}
+
+.new-arrival::after {
+  right: 0;
+}
+.new-arrival img {
+  margin: 40px;
+  width: 350px;
+  height: 66px;
+}
+
+
+
+.hidden-img ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; 
+    align-items: center; 
+}
+
+.hidden-img ul li {
+  text-align: center;
+}
+.hidden-img ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.hidden-img ul li a p {
+  color:rgb(255, 125, 194);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.hidden-img ul li img {
+  width: 266px;
+  height: 266px;
+  padding: 34px;
+  padding-bottom: 0px;
+}
+
+
+.footer {
+  background-color: #313131;;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.footer ul {
+  font-size: 16px;
+  color: #cccccc;
+  font-weight: bold;
+  list-style: none;
+}
+.footer ul li {
+  margin-top: 10px;
+}
+.footer ul li a {
+  color: rgb(153, 153, 153);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.footer ul img {
+  width: 20px;
+  height: 20px;
+  margin-top: 40px;
+  padding-right: 10px;
+}
+.footer-bank {
+  background-color: #313131;;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.footer-bank ul {
+  list-style: none;
+  display: flex;
+}
+.footer-bank ul li img {
+  width: 36px;
+  height: 22px;
+  padding-left: 10px;
+}
+

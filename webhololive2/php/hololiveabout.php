@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/hololiveabout.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="overlay">
+        <div class="background-container"></div>
+        <div class="overlay-first">
+            <img src="../anh/385501409_753751056592502_5428555459183944931_n.png" alt="">
+            <nav class="nav-first">
+                <ul class="head">
+                    <li><a href="http://127.0.0.1:5500/html/hololiveabout.html">ABOUT</a></li>
+                    <li><a href="">TALENT</a></li>
+                    <li><a href="">NEWS</a></li>
+                    <li><a href="">AUDITION</a></li>
+                </ul>
+                <ul class="official">
+                    <li><a href="http://127.0.0.1:5500/html/hololiveproductionshop.html">OFFICIAL SHOP</a></li>
+                </ul>
+                <ul class="lauguage">
+                    <li><a href="">JP</a></li>
+                    <li class="color2"><a  href="">EN</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="about">
+            <h1>ABOUT</h1>
+        </div>
+        <div class="img-about" >
+            <img src="../anh/about_img_chart.png" alt="">
+        </div>
+        <div class="text-1" >
+        <p>hololive production is a VTuber agency that consists of the talent groups hololive and HOLOSTARS. hololive production has over 70 affiliated talents active in Japan, Indonesia, and English-speaking countries, and has over 70 million YouTuber subscribers all across the channels.</p>
+        <br>With COVER Corporation’s VR/AR technology, hololive production talents provide various experiences ranging from game streams to offline concerts, and form a stable community that connects fans, creators, and talents all around the world via social networks.</br>
+        </div>
+        <div class="slideshow-container">
+            <div class="slides">
+              <div class="slide">
+                <img src="../anh/about_main05.png" alt="Slide 1">
+              </div>
+              <div class="slide">
+                <img src="../anh/about_main09.png" alt="Slide 3">
+              </div>
+            </div>
+          </div>
+          
+        
+          <script src="script.js"></script>
+          <div class="production-sp">
+            <h1>Production Speciaties</h1>
+            <h2>SPECIALTY</h2>
+          </div>
+          <div class="SPECIALTY-01" >
+            <h2>SPECIALTY01</h2>
+            <h1> Entertainmnt That Draws in the World</h1>
+        </div>
+        <div class="img-specialty01">
+            <img src="../anh/about_talent01.png" alt="">
+            <img src="../anh/about_talent02.png" alt="">
+            <img src="../anh/about_talent03.png" alt="">
+        </div>
+        <div  class="text-specialty01" >
+            <p>With the likes of North America’s Gawr Gura (4.31 million subscribers), who has the most YouTube channel subscribers among VTubers, Japan’s Houshou Marine (2.39 million subscribers), and Indonesia’s Kobo Kanaeru (2.04 million subscribers), some of the top performing VTubers all around the world are affiliated with hololive production.
+                * As of May 2023.
+            </p>
+            <br>The talents participate in meet & greets around the world, appear in exhibitions at entertainment events, and engage with fans directly, among other activities. In addition to “holo no graffiti”, a short animation series that has become highly popular since it first began, hololive production provides content that is loved by fans around the world.</br>
+        </div>
+        <div class="SPECIALTY-01" >
+            <h2>SPECIALTY 02</h2>
+            <h1>Over 70 Unique Talents</h1>
+        </div>
+        <div class="img-specialty01">
+            <img src="../anh/about_talent04.png" alt="">
+            <img src="../anh/about_talent05.png" alt="">
+            <img src="../anh/about_talent06 (1).png" alt="">
+        </div>
+        <div class="img-specialty01" >
+            <img src="../anh/about_talent07 (1).png" alt="">
+            <img src="../anh/about_talent07.png" alt="">
+            <img src="../anh/about_talent09 (1).png" alt="">
+        </div>
+        <div class="text-specialty01" >
+            <p>Our affiliated talents full of unique characteristics, are not only involved in daily live streaming, but also engage in various activities with their field of expertise, such as singing or writing.</p>
+            <br>From talents with excellent producing skills who plan and manage projects such as game tournaments and variety shows that involve multiple talents, to artists who have paved their way to the top of the Oricon and Billboard charts, our talents’ activities go beyond the virtual realm and are expanding to various areas of our lives.</br>
+        </div>
+        <div  class="SPECIALTY-01">
+            <h2>SPECIALTY 03</h2>
+            <h1>Unique Streaming Technology and Facilities</h1>
+        </div>
+        <div class="img-specialty01">
+            <img src="../anh/about_studio01.png" alt="">
+            <img src="../anh/about_studio02.png" alt="">
+            <img src="../anh/about_studio03.png" alt="">
+        </div>
+        <div class="text-specialty01">
+        <p>By conducting in-house development of the streaming system and content creation, we have succeeded in providing fans with unprecedented virtual entertainment.
+                We have developed our unique streaming system in cutting-edge areas such as VR and AR. We continuously explore advanced technologies to enable at-home 3D streaming using devices such as mocopi and Meta Quest 2.</p>
+        <br>In addition to the above, we have built studio facilities with Vicon, an optical motion capture system, to achieve accurate, high-fidelity motion tracking for multiple talents on 3D concerts.
+        </br>
+        </div>
+        <div class="text-footer">
+            <h1>SHARE</h1>
+            <h2><img src="../anh/holox.png" alt=""></h2>
+        </div>
+        <div class="text-footer1" >
+            <ul>
+                <li><img src="../anh/line.png" alt=""></li>
+                <li><img src="../anh/redit.png" alt=""></li>
+                <li><img src="../anh/face.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="footer-1" >
+                <div class="footer-img" >
+                    <img src="../anh/hololivewhite.png" alt="">
+                </div> 
+                <ul class="footer-ul" >
+                    <li>ABOUT</li>
+                    <li>TALENT</li>
+                    <li>NEWS</li>
+                    <li>AUDITION</li>
+                </ul>
+                <ul class="footer-ul">
+                    <li>COLLABORATION</li>
+                    <li>OFFICIAL SHOP</li>
+                </ul>
+                <ul class="footer-ul" >
+                    <li>COMPANY</li>
+                    <li>PRIVACY POLICY</li>
+                    <li>Request To Minors</li>
+                </ul>
+                <ul class="footer-ul" >
+                    <li>Derivative Works Guidelines</li>
+                    <li>FAQ</li>
+                    <li>Supporter Guideline</li>
+                </ul>
+            </div>
+            <div class="footer-2" >
+                <p>hololive</p>
+                <ul class="footer-ul1" >
+                    <li>Youtube</li>
+                    <li>X</li>
+                    <li>Tiktok</li>
+                </ul>
+                <div class="horizontal-line"></div>
+                <p>hololive Indonesia</p>
+                <ul class="footer-ul1" >
+                    <li>Youtube</li>
+                    <li>X</li>
+                    <li>Facebook</li>
+                    <li>Tik Tok</li>
+                    <li>Instagram</li>
+                </ul>
+                <div class="horizontal-line"></div>
+                <p>hololive English</p>
+                <ul class="footer-ul1" >
+                    <li>Youtube</li>
+                    <li>X</li>
+                    <li>FAcebook</li>
+                    <li>Tik Tok</li>
+                    <li>Reddit</li>
+                </ul>
+                <div class="horizontal-line"></div>
+                <p>hololive Dev_IS</p>
+                <ul class="footer-ul1" >
+                    <li>Youtube</li>
+                </ul>
+                <div class="horizontal-line"></div>
+                <p>HOLOSTARS</p>
+                <ul class="footer-ul1" >
+                    <li>Youtube</li>
+                    <li>X</li>
+                </ul>
+                <div class="horizontal-line"></div>
+                <p>HLOSTARS ENGLISH</p>
+                <ul class="footer-ul1" >
+                    <li>Youtube</li>
+                    <li>X</li>
+                    <li>TikTok</li>
+                    
+                </ul>
+                <div class="horizontal-line"></div>
+            </div>
+        </div>
+        <div class="text-final">
+            <p>@2016 COVER Corp</p>
+        </div>
+    </div>
+</body>
+</html>
+<br></br>
